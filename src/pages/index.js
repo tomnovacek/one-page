@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
 import Faq from '../components/Faq'
+import { InlineWidget } from "react-calendly";
 import Scroll from '../components/Scroll';
 
 class Index extends React.Component {
@@ -154,6 +155,17 @@ class Index extends React.Component {
                 </li>
               </ul>
             </footer>
+          </section>
+
+          <section id="schedule" className="main special">
+            <header className="major">
+              <h2>Naplánovat setkání</h2>
+              <p>Vyberte z kalendáře čas, který vám bude nejvice vyhovovat. Můžete také poslat&nbsp; 
+                <Scroll type="id" element="kontakt">
+                    <a href="#">mail nebo sms</a>
+                </Scroll>.</p>
+            </header>
+                  <InlineWidget url="https://calendly.com/tomasnovacek/50min" />
           </section>
 
           <section id="cta" className="main special">
