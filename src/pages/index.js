@@ -2,10 +2,11 @@ import { Link } from 'gatsby'
 import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
-import pic01 from '../assets/images/pic01.jpg'
+import Tom from '../assets/images/Tom.jpg'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
+import Scroll from '../components/Scroll';
 
 class Index extends React.Component {
   constructor(props) {
@@ -26,7 +27,7 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="Gatsby Starter - Stellar" />
+        <Helmet title="Tomáš Nováček - psycholog" />
 
         <Header />
 
@@ -41,55 +42,51 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  <h2>Hezký den,</h2>
                 </header>
                 <p>
-                  Sed lorem ipsum dolor sit amet nullam consequat feugiat
-                  consequat magna adipiscing magna etiam amet veroeros. Lorem
-                  ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem
-                  ipsum dolor sit amet aliquam.
+                  Vystudoval jsem ekonomii a psychologii. První polovinu života jsem strávil jako ekonom, druhou věnuji psyhologii. Absolvoval jsem výcvik v koučinku a aktuálně jsem ve výcviku <a href="https://www.psychoterapie-integrace.cz/">integrace v psychoterapii</a>. Pracuji pro firmy i jednotlivce řešící pracovní i osobní problémy, se kterými chtějí pomoct. Rád se setkám i s vámi.
                 </p>
                 <ul className="actions">
                   <li>
                     <Link to="/generic" className="button">
-                      Learn More
+                      Více
                     </Link>
                   </li>
                 </ul>
               </div>
               <span className="image">
-                <img src={pic01} alt="" />
+                <img src={Tom} alt="" />
               </span>
             </div>
           </section>
 
+{/* Moje sluzby*/}
+
           <section id="first" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>Moje služby</h2>
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
+                <span className="icon major style1 fa-user"></span>
+                <h3>Psychoterapie</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                Ať už stojíte před složitým životním rozhodnutím, řešíte vztahové, nebo osobní problémy, procházíte složitým životním obdobím a hledáte pomoc. Ozvěte se.
                 </p>
               </li>
               <li>
-                <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
+                <span className="icon major style3 fa-diamond"></span>
+                <h3>Koučování</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                Pokud chcete pracovat na tom, aby se vám v osobním životě i práci dařilo lip a chcete s tím systematicky pomoct. Ozvěte se.
                 </p>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
+                <span className="icon major style5 fa-users"></span>
+                <h3>Tréninky</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                Pokud chcete rozvíjet u svého týmu dovednosti v oblasti komunikace, zvládání stresu, vytváření tvůrčího prostředí. Ozvěte se.
                 </p>
               </li>
             </ul>
@@ -106,33 +103,33 @@ class Index extends React.Component {
 
           <section id="second" className="main special">
             <header className="major">
-              <h2>Ipsum consequat</h2>
+              <h2>Jak pracuji</h2>
               <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
+                Považuji za důležité věnovat dostatek prostoru pro definování zakázky.
                 <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
+                Obvykle pozoruji s klienty následovně:
               </p>
             </header>
             <ul className="statistics">
               <li className="style1">
-                <span className="icon fa-code-fork"></span>
-                <strong>5,120</strong> Etiam
+                <span className="icon fa-envelope"></span>
+                <strong>1</strong> <a href="#footer">První kontakt</a>
               </li>
               <li className="style2">
-                <span className="icon fa-folder-open-o"></span>
-                <strong>8,192</strong> Magna
+                <span className="icon fa-question"></span>
+                <strong>2</strong> První setkání
               </li>
               <li className="style3">
-                <span className="icon fa-signal"></span>
-                <strong>2,048</strong> Tempus
+                <span className="icon fa-pencil"></span>
+                <strong>3</strong> Domluva spolupráce
               </li>
               <li className="style4">
-                <span className="icon fa-laptop"></span>
-                <strong>4,096</strong> Aliquam
+                <span className="icon fa-refresh"></span>
+                <strong>4</strong> Spolupráce
               </li>
               <li className="style5">
-                <span className="icon fa-diamond"></span>
-                <strong>1,024</strong> Nullam
+                <span className="icon fa-question"></span>
+                <strong>5</strong> Domluva na dalším postupu
               </li>
             </ul>
             <p className="content">
@@ -160,12 +157,8 @@ class Index extends React.Component {
 
           <section id="cta" className="main special">
             <header className="major">
-              <h2>Congue imperdiet</h2>
+              <h2>Nejčaštější dotazy</h2>
               <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
-              </p>
             </header>
             <footer className="major">
               <ul className="actions">
