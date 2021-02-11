@@ -6,6 +6,7 @@ import Tom from '../assets/images/Tom.jpg'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
+import Faq from '../components/Faq'
 import Scroll from '../components/Scroll';
 
 class Index extends React.Component {
@@ -158,7 +159,7 @@ class Index extends React.Component {
           <section id="cta" className="main special">
             <header className="major">
               <h2>Nejčaštější dotazy</h2>
-              <p>
+            <Faq />
             </header>
             <footer className="major">
               <ul className="actions">
