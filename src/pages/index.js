@@ -47,15 +47,15 @@ class Index extends React.Component {
                   <h2>Hezký den,</h2>
                 </header>
                 <p>
-                  Vystudoval jsem ekonomii a psychologii. První polovinu života jsem strávil jako ekonom, druhou věnuji psyhologii. Absolvoval jsem výcvik v koučinku a aktuálně jsem ve výcviku <a href="https://www.psychoterapie-integrace.cz/">integrace v psychoterapii</a>. Pracuji pro firmy i jednotlivce řešící pracovní i osobní problémy, se kterými chtějí pomoct. Rád se setkám i s vámi.
+                  Vystudoval jsem ekonomii a psychologii. První polovinu života jsem strávil jako ekonom, druhou věnuji psychologii. Absolvoval jsem výcvik v koučinku a aktuálně jsem ve výcviku <a href="https://www.psychoterapie-integrace.cz/">integrace v psychoterapii</a>. Pracuji pro firmy i jednotlivce řešící pracovní i osobní problémy, se kterými chtějí pomoct. Rád se setkám i s vámi.
                 </p>
-                <ul className="actions">
+                {/* <ul className="actions">
                   <li>
                     <Link to="/generic" className="button">
                       Více
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </div>
               <span className="image">
                 <img src={Tom} alt="" />
@@ -92,7 +92,7 @@ class Index extends React.Component {
                 </p>
               </li>
             </ul>
-            <footer className="major">
+            {/* <footer className="major">
               <ul className="actions">
                 <li>
                   <Link to="/generic" className="button">
@@ -100,7 +100,7 @@ class Index extends React.Component {
                   </Link>
                 </li>
               </ul>
-            </footer>
+            </footer> */}
           </section>
 
           <section id="second" className="main special">
@@ -135,18 +135,9 @@ class Index extends React.Component {
               </li>
             </ul>
             <p className="content">
-              Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl
-              eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum
-              ac arcu sit amet, fermentum pellentesque et purus. Integer maximus
-              varius lorem, sed convallis diam accumsan sed. Etiam porttitor
-              placerat sapien, sed eleifend a enim pulvinar faucibus semper quis
-              ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer
-              eget purus nec nulla mattis et accumsan ut magna libero. Morbi
-              auctor iaculis porttitor. Sed ut magna ac risus et hendrerit
-              scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras
-              eu ornare dui curabitur lacinia.
+              V současné situaci se setkávám s klienty pouze online. I když tato forma úplně nenahradí osobní kontakt, mám zkušenost, že i online setkání může být pro většinu lidí užitečná.
             </p>
-            <footer className="major">
+            {/* <footer className="major">
               <ul className="actions">
                 <li>
                   <Link to="/generic" className="button">
@@ -154,7 +145,7 @@ class Index extends React.Component {
                   </Link>
                 </li>
               </ul>
-            </footer>
+            </footer> */}
           </section>
 
           <section id="schedule" className="main special">
@@ -173,7 +164,7 @@ class Index extends React.Component {
               <h2>Nejčaštější dotazy</h2>
             <Faq />
             </header>
-            <footer className="major">
+            {/* <footer className="major">
               <ul className="actions">
                 <li>
                   <Link to="/generic" className="button special">
@@ -186,7 +177,7 @@ class Index extends React.Component {
                   </Link>
                 </li>
               </ul>
-            </footer>
+            </footer> */}
           </section>
         </div>
       </Layout>

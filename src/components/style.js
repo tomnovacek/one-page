@@ -47,7 +47,8 @@ export const Wrapper = styled.div`
   }
 
   .faq-content {
-    padding: 0 72px 32px 16px;
+    padding: 16px 72px 32px 16px;
     line-height: 26px;
+    text-align: left;
   }
 `;
