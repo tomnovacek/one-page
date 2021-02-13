@@ -2,7 +2,7 @@ import { Link } from 'gatsby'
 import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
-import Tom from '../assets/images/Tom512.jpg'
+import Tom from '../assets/images/Tom512.png'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
@@ -151,9 +151,9 @@ class Index extends React.Component {
           <section id="schedule" className="main special">
             <header className="major">
               <h2>Naplánovat setkání</h2>
-              <p>Vyberte z kalendáře čas, který vám bude nejvice vyhovovat. Můžete také poslat&nbsp; 
+              <p>Vyberte z kalendáře čas, který vám bude nejvíce vyhovovat. Stačí vybrat den a čas a poté potvrdit tlačítkem <strong>Confirm</strong>. V následujícím formuláři doplníte jen jméno, email, případně poznámku. Stiskem tlačítka <strong>Schedule Event</strong> zarezervujete konzultaci v kalendáři. Můžete také poslat&nbsp; 
                 <Scroll type="id" element="kontakt">
-                    <a href="#">mail nebo sms</a>
+                    <a href="#"><strong>mail nebo sms</strong></a>
                 </Scroll>.</p>
             </header>
                   <InlineWidget url="https://calendly.com/tomasnovacek/50min" />
