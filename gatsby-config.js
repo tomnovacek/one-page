@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Stellar by HTML5 UP",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Stellar by HTML5 UP"
+    title: "Tom Novacek - psycholog, kouč, psychoterapeut",
+    author: "Tom Novacek with help of Hunter Chang",
+    description: "Nabízím odborné služby psychologa, kouče a psychoterapeuta v Brně."
   },
   plugins: [
     'gatsby-plugin-react-helmet',
