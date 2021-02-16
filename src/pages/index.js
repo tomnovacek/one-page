@@ -9,6 +9,7 @@ import Nav from '../components/Nav'
 import Faq from '../components/Faq'
 import { InlineWidget } from "react-calendly";
 import Scroll from '../components/Scroll';
+import smartlookClient from 'smartlook-client';
 
 class Index extends React.Component {
   constructor(props) {
@@ -182,6 +183,9 @@ class Index extends React.Component {
         </div>
       </Layout>
     )
+  }
+  componentDidMount() {
+    smartlookClient.init('d165dc10f16a7da507933c2950cd1dd7f22a0b8f')
   }
 }
 
