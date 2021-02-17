@@ -25,17 +25,12 @@ class Index extends React.Component {
   _handleWaypointLeave = () => {
     this.setState(() => ({ stickyNav: true }))
   }
-
-  componentWillMount(){
-    this.loadScheduler();
-  }
   
-  loadScheduler() {
+  componentDidMount () {
     const script = document.createElement("script")
     script.src = "https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"
     script.async = true;
     document.body.appendChild(script);
-    script.onload = () => {this.setState({ scriptLoaded: true })}
   }
 
   render() {
@@ -163,7 +158,7 @@ class Index extends React.Component {
           <section id="schedule" className="main special">
             <header className="major">
               <h2>Naplánovat setkání</h2>
-              <p>Vyberte z kalendáře čas, který vám bude nejvíce vyhovovat. V následujícím formuláři doplníte jen jméno a email. Stiskem tlačítka Nebo můžete také poslat&nbsp; 
+              <p>Vyberte z kalendáře čas, který vám bude nejvíce vyhovovat. V následujícím formuláři doplníte jen jméno a email. Nebo můžete také poslat&nbsp; 
                 <Scroll type="id" element="kontakt">
                     <a href="#"><strong>mail nebo sms</strong></a>
                 </Scroll>.</p>
