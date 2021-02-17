@@ -164,8 +164,8 @@ class Index extends React.Component {
                 </Scroll>.</p>
             </header>
 
-                  <div>
-                    <iframe src="https://meetings.hubspot.com/mail249?embed=true" width="800" height="670"></iframe>
+                  <div className="spotlight">
+                    <iframe className="content" src="https://meetings.hubspot.com/mail249?embed=true" width="100%" height="670"></iframe>
                   </div>
 
           </section>
