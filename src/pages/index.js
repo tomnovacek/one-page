@@ -177,7 +177,7 @@ class Index extends React.Component {
 
           <section id="cta" className="main special">
             <header className="major">
-              <h2>Nejčaštější dotazy</h2>
+              <h2>Nejčastější dotazy</h2>
             <Faq />
             </header>
             {/* <footer className="major">
