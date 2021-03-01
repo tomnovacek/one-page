@@ -63,6 +63,20 @@ class Index extends React.Component {
                     </Link>
                   </li>
                 </ul> */}
+                <div>
+                  <ul className="actions">
+                    <li>
+                      <button className="color-button cta">
+                        <a href="#schedule">Rezervujte si termín</a>
+                      </button>
+                    </li>
+                    <li>
+                      <button className="button">
+                        <a href="#contact">Kontaktujte mě</a>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
               </div>
               <span className="image">
                 <img src={Tom} alt="" />
@@ -70,7 +84,7 @@ class Index extends React.Component {
             </div>
           </section>
 
-{/* Moje sluzby*/}
+          {/* Moje sluzby*/}
 
           <section id="first" className="main special">
             <header className="major">
