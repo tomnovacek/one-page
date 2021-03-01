@@ -85,6 +85,10 @@
 					color: _palette($p, fg-light);
 				}
 			}
+			a {
+				text-decoration: none;
+				border-bottom-color: transparent;
+			}
 
 			&.special {
 				background-color: _palette(accent);
@@ -102,6 +106,41 @@
 				&.icon {
 					&:before {
 						color: _palette(invert, bg) !important;
+					}
+				}
+				a {
+					text-decoration: none;
+					border-bottom-color: transparent;
+				}
+			}
+			&.cta {
+				background-color: _palette(bg1);
+				color: _palette(invert, bg) !important;
+				box-shadow: none;
+
+				&:hover {
+					background-color: darken(_palette(bg1), 15);
+				}
+
+				&:active {
+					background-color: darken(_palette(bg1), 3);
+				}
+
+				&.icon {
+					&:before {
+						color: _palette(invert, bg) !important;
+					}
+				}
+				a {
+					@include vendor('transition', (
+						'color #{_duration(transition)} ease',
+					));
+					text-decoration: none;
+					color: inherit;
+					border-bottom-color: transparent;
+			
+					&:hover {
+						color: white;
 					}
 				}
 			}

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Tom Novacek - psycholog, kouč, psychoterapeut",
-    author: "Tom Novacek with help of Hunter Chang",
+    title: "Mgr. Ing. Tomáš Nováček - psycholog, kouč, psychoterapeut",
+    author: "Tom Novacek",
     description: "Nabízím odborné služby psychologa, kouče a psychoterapeuta v Brně."
   },
   plugins: [
@@ -9,8 +9,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'Tomáš Nováček - psycholog; Brno',
+        short_name: 'Psycholog-Brno',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
