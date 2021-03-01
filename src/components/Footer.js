@@ -6,13 +6,15 @@ const Footer = props => (
     <section>
       <h2>Jak mě kontaktovat</h2>
       <p>
-        Rád se s vámi setkám. Domluvte si se mnou schůzku přes rezervační systém, emailem nebo pošlete sms. Vzhledem k dalším zakázkam a klientům nemohu zajistit, že budu moci zvednout telefonní hovor.
+        Rád se s vámi setkám. Domluvte si se mnou schůzku přes rezervační systém, emailem nebo pošlete sms. Pokud Vám nebudu moci zvednout telefon, ozvu se hned, jak to bude možné.
       </p>
       
     </section>
     <section>
-      <h2 id="kontakt">Kontakt</h2>
+      <h2 id="contact">Kontakt</h2>
       <dl className="alt">
+        <dt>Jméno</dt>
+        <dd>Mgr. Ing. Tomáš Nováček</dd>
         <dt>Addresa</dt>
         <dd>Cornovova 52a &bull; 618 00 Brno</dd>
         <dt>Phone</dt>
