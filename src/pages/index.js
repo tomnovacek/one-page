@@ -137,7 +137,7 @@ class Index extends React.Component {
             </footer> */}
           </section>
 
-          <section id="second" className="main special">
+          {/* <section id="second" className="main special">
             <header className="major">
               <h2>Jak pracuji</h2>
               <p>
@@ -175,16 +175,7 @@ class Index extends React.Component {
               forma úplně nenahradí osobní kontakt, mám zkušenost, že i online
               setkání může být pro většinu lidí užitečná.
             </p>
-            {/* <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
-              </ul>
-            </footer> */}
-          </section>
+          </section> */}
 
           <section id="cta" className="main special">
             <header className="major">
