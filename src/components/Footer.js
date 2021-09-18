@@ -15,9 +15,9 @@ const Footer = props => (
       <dl className="alt">
         <dt>Jméno</dt>
         <dd>Mgr. Ing. Tomáš Nováček</dd>
-        <dt>Addresa</dt>
+        <dt>Adresa</dt>
         <dd>Cornovova 52a &bull; 618 00 Brno</dd>
-        <dt>Phone</dt>
+        <dt>Mobil</dt>
         <dd>(+420) 602 773 440 (preferuji sms)</dd>
         <dt>Email</dt>
         <dd>
