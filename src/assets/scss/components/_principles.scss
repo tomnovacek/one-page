@@ -4,9 +4,9 @@
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
 
-/* Features */
+/* Principles */
 
-	.features {
+	.principles {
 		@include vendor('display', 'flex');
 		@include vendor('flex-wrap', 'wrap');
 		@include vendor('justify-content', 'center');
@@ -16,27 +16,48 @@
 		list-style: none;
 
 		li {
-			width: calc(#{(100% / 2)} - #{_size(element-margin)});
+			width: calc(#{(100% / 4)} - #{_size(element-margin)});
 			margin-left: _size(element-margin);
 			margin-top: (_size(element-margin) * 1.5);
 			padding: 0;
 
 			&:nth-child(1),
 			&:nth-child(2),
-			&:nth-child(3) {
-				margin-top: 0;
+			&:nth-child(3),
+			&:nth-child(4) {
+			margin-top: 0;
 			}
 
 			> :last-child {
 				margin-bottom: 0;
 			}
 		}
+		.image {
+			display: inline-block;
+			margin-left: 0em;
+			padding: 0.3em;
+			border-radius: 100%;
+			border: none; //TODO: revise
+
+			img {
+				display: block;
+				border-radius: 100%;
+				width: 12em;
+			}
+		}
+		.source {
+			margin-top: -2em;
+			font-size: 0.8em;
+			color: lightgrey;
+		}
+
 
 		@include breakpoint(medium) {
 			li {
 				width: calc(#{(100% / 2)} - #{_size(element-margin)});
 
-				&:nth-child(3) {
+				&:nth-child(3),
+				&:nth-child(4) {
 					margin-top: (_size(element-margin) * 1.5);
 				}
 			}
@@ -52,7 +73,8 @@
 				margin-top: _size(element-margin);
 
 				&:nth-child(2),
-				&:nth-child(3) {
+				&:nth-child(3),
+				&:nth-child(4) {
 					margin-top: _size(element-margin);
 				}
 			}

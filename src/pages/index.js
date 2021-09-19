@@ -3,10 +3,18 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
 import Tom from '../assets/images/Tom.webp'
+import ThumbsUp from '../assets/images/thumbsUp.png'
+import Puzzle from '../assets/images/puzzle.png'
+import Tailor from '../assets/images/tailor.png'
+import Dialog from '../assets/images/dialog.png'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
 import Faq from '../components/Faq'
+import ArrangeMeeting from '../components/ArrangeMeeting'
+import FirstMeeting from '../components/FirstMeeting'
+import Cooperation from '../components/Cooperation'
+import Ending from '../components/Ending'
 import Scroll from '../components/Scroll'
 import smartlookClient from 'smartlook-client'
 
@@ -54,14 +62,11 @@ class Index extends React.Component {
                   <h2>Vítejte,</h2>
                 </header>
                 <p>
-                  Vystudoval jsem ekonomii a psychologii. První polovinu života
-                  jsem získával zkušenosti v podnikovém prostředí, posledních šest let se věnuji psychologii. Absolvoval jsem dvouletý výcvik v
+                  Vystudoval jsem ekonomii a jednooborovou psychologii. Posledních sedm let se věnuji převážně psychologickému poradenství a tři roky také psychoterapii. Absolvoval jsem dvouletý výcvik v
                   koučinku a aktuálně jsem v pětiletém výcviku{' '}
                   <a href="https://www.psychoterapie-integrace.cz/">
                     integrace v psychoterapii
-                  </a>
-                  . Pracuji pro firmy i jednotlivce řešící pracovní i osobní
-                  problémy, se kterými chtějí pomoct. Rád se setkám i s vámi.
+                  </a>. Spolupracuji s firmami i individuálními klienty na tom, aby jim bylo lépe.
                 </p>
                 {/* <ul className="actions">
                   <li>
@@ -73,20 +78,24 @@ class Index extends React.Component {
                 <div>
                   <ul className="actions">
                     <li>
+                    <Scroll type="id" element="schedule">
                       <button className="color-button cta">
-                        <a href="#schedule">Rezervujte si termín</a>
+                        <a href="#">Rezervujte si termín</a>
                       </button>
+                    </Scroll>
                     </li>
                     <li>
+                    <Scroll type="id" element="contact">
                       <button className="button">
-                        <a href="#contact">Kontaktujte mě</a>
+                        <a href="#">Kontaktujte mě</a>
                       </button>
+                    </Scroll>
                     </li>
                   </ul>
                 </div>
               </div>
               <span className="image">
-                <img src={Tom} alt="" />
+                <img src={Tom} alt="Thumbs up" />
               </span>
             </div>
           </section>
@@ -103,28 +112,35 @@ class Index extends React.Component {
                 <h3>Psychoterapie</h3>
                 <p>
                   Ať už stojíte před složitým životním rozhodnutím, řešíte
-                  vztahové, nebo osobní problémy, procházíte složitým životním
-                  obdobím a hledáte pomoc. Ozvěte se.
+                  vztahové, nebo osobní problémy, procházíte náročným životním
+                  obdobím a hledáte pomoc,&nbsp;
+                  <Scroll type="id" element="schedule">
+                    <a href="#">můžete se na mě obrátit.</a>
+                  </Scroll>
                 </p>
               </li>
               <li>
                 <span className="icon major style3 fa-diamond"></span>
-                <h3>Koučování</h3>
+                <h3>Koučování a poradenství</h3>
                 <p>
                   Pokud chcete pracovat na tom, aby se vám v osobním životě i
-                  práci dařilo lip a chcete s tím systematicky pomoct. Ozvěte
-                  se.
+                  práci dařilo lépe a chcete s tím systematicky pomoct,&nbsp;
+                  <Scroll type="id" element ="schedule">
+                    <a href="#">naplánujte si se mnou schůzku.</a> 
+                  </Scroll>
                 </p>
               </li>
-              <li>
+              {/* <li>
                 <span className="icon major style5 fa-users"></span>
                 <h3>Tréninky</h3>
                 <p>
                   Pokud chcete rozvíjet u svého týmu dovednosti v oblasti
-                  komunikace, zvládání stresu, vytváření tvůrčího prostředí.
-                  Ozvěte se.
+                  komunikace, zvládání stresu, vytváření tvůrčího prostředí,&nbsp;
+                  <Scroll type="id" element="contact">
+                    <a href="#">napište mi.</a>
+                  </Scroll>
                 </p>
-              </li>
+              </li> */}
             </ul>
             {/* <footer className="major">
               <ul className="actions">
@@ -137,51 +153,81 @@ class Index extends React.Component {
             </footer> */}
           </section>
 
-          {/* <section id="second" className="main special">
+          <section id="second" className="main special">
             <header className="major">
               <h2>Jak pracuji</h2>
               <p>
-                Považuji za důležité věnovat dostatek prostoru pro definování
-                zakázky.
-                <br />
-                Obvykle pozoruji s klienty následovně:
+                Výcvik v kognitivně behaviorálním koučinku a především probíhající výcvik v integrativní psychoterapii definují základní rámec a metody mé práce. Podrobněji následující body probírám s klienty na prvním setkání.
               </p>
             </header>
+            <ul className="principles">
+              <li>
+              <h3> Přijetí</h3>
+              <span className="image">
+                <img src={ThumbsUp} alt="Thumbs Up foto" />
+              </span>
+              <p>Respektuji subjektivní zkušenost klienta a jeho chápání situace. Beru klientovo pozorování a prožívání jako nejcennější zdroj poznání.</p>
+                <p className="source">Photo by <a href="https://unsplash.com/@sincerelymedia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sincerely Media</a> on <a href="https://unsplash.com/s/photos/thumbs-up?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+              </li>
+
+              <li>
+                <h3> Celostní přístup</h3>
+              <span className="image">
+                <img src={Puzzle} alt="Puzzle" />
+              </span>
+              <p>Snažím se s klienty uvědomit si a pochopit situaci v celé své komplexnosti. Důležité je neopomenout žádnou část skládačky.</p>
+              <p className="source">Photo by <a href="https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sigmund</a> on <a href="https://unsplash.com/s/photos/puzzle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+  
+              </li>
+              <li>
+              <h3> Terapie na míru</h3>
+              <span className="image">
+                <img src={Tailor} alt="Tailoring" />
+              </span>
+              <p>Souhlasím s názorem, že jedinečnost každého člověka je důvodem k hledání pro každého  jedinečný přístup a způsob práce.</p>
+              <p className="source">Photo by <a href="https://unsplash.com/@salvadorgodoyladrero?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Salvador Godoy</a> on <a href="https://unsplash.com/s/photos/tailor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+  
+              </li>
+
+              <li>
+              <h3>Mezilidský dialog</h3>
+              <span className="image">
+                <img src={Dialog} alt="Dialog" />
+              </span>
+              <p>Snažím se vnímat druhého, jakým je, stejně tak i sebe sama, vzájemně sdílet zkušenost autenticky a zodpovědně.</p>
+              <p className="source">Photo by <a href="https://unsplash.com/@harlimarten?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Harli  Marten</a> on <a href="https://unsplash.com/s/photos/people-talking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+              </li>
+            </ul>
+              <h2>
+                Spolupráce obvykle probíhá v následujících krocích:
+              </h2>
             <ul className="statistics">
               <li className="style1">
-                <span className="icon fa-envelope"></span>
+                <span className="icon fa-calendar-check-o"></span>
                 <strong>1</strong>{' '}
-                <a href="#footer">První kontakt, domluva setkání</a>
+                <ArrangeMeeting />
               </li>
               <li className="style2">
                 <span className="icon fa-question"></span>
-                <strong>2</strong> První setkání, kontrakt
+                <strong>2</strong> <FirstMeeting/>
               </li>
               <li className="style3">
-                <span className="icon fa-pencil"></span>
-                <strong>3</strong> Domluva spolupráce
+                <span className="icon fa-refresh"></span>
+                <strong>3</strong> <Cooperation/>
               </li>
               <li className="style4">
-                <span className="icon fa-refresh"></span>
-                <strong>4</strong> Společná práce
-              </li>
-              <li className="style5">
-                <span className="icon fa-question"></span>
-                <strong>5</strong> Ukončení, další kroky
+                <span className="icon fa-check"></span>
+                <strong>4</strong> <Ending />
               </li>
             </ul>
-            <p className="content">
-              V současné situaci se setkávám s klienty pouze online. I když tato
-              forma úplně nenahradí osobní kontakt, mám zkušenost, že i online
-              setkání může být pro většinu lidí užitečná.
-            </p>
-          </section> */}
+          </section>
 
           <section id="cta" className="main special">
             <header className="major">
               <h2>Nejčastější dotazy</h2>
-              <Faq />
+              <p>Níže je seznam nejšastějších otázek a odpovědí.<br/>Jestli Vám zde chybí důležitá informace, <a href="mailto:mail@tomasnovacek.com">kontaktujte mě prosím</a>.</p>
             </header>
+              <Faq />
             {/* <footer className="major">
               <ul className="actions">
                 <li>
@@ -201,18 +247,16 @@ class Index extends React.Component {
           <section id="schedule" className="main special">
             <header className="major">
               <h2>Naplánovat setkání</h2>
+            </header>
               <p>
-                Vyberte z kalendáře čas, který vám bude nejvíce vyhovovat. V
-                následujícím formuláři doplníte jen jméno a email. Nebo můžete
-                také poslat&nbsp;
+                Vyberte si z kalendáře datum a čas, které vám budou nejvíce vyhovovat. V následujícím formuláři doplníte jen Vaše jméno a kontakní email, kam Vám příjde potvrzení.<br/>Můžete mi také poslat&nbsp;
                 <Scroll type="id" element="contact">
                   <a href="#">
                     <strong>mail nebo sms</strong>
                   </a>
                 </Scroll>
-                .
+                . Odepíši Vám s návrhy termínů možných setkání.
               </p>
-            </header>
 
             <div>
               <iframe

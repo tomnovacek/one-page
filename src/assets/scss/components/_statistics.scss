@@ -16,7 +16,7 @@
 
 		li {
 			@include vendor('flex', '1');
-			padding: 1.5em;
+			padding: 16px 0;
 			color: _palette(fg-bold);
 			text-align: center;
 

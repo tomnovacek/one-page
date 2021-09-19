@@ -4,7 +4,7 @@ export const Container = styled.div`
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 0px;
 
   ${props =>
     props.fluid &&
@@ -14,7 +14,7 @@ export const Container = styled.div`
 `;
 
 export const Section = styled.section`
-  padding: 28px 0;
+  padding: 0px 0;
   overflow: hidden;
 
   ${props =>

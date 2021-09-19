@@ -44,10 +44,26 @@ const FAQS = [
     ),
   },
   {
+    title: 'Může být terapie hrazena zdravotní pojišťovnou?',
+    content: () => (
+      <>
+        Nespolupracuji se zdravotními pojišťovnami. Za moje služby platíte vy. I když je to pro Vás spojeno s vyššími náklady, má to i své výhody. Například není nutné předávat informace o průběhu terapie zdravotní pojišťovně. Také délku a frekvenci setkávání si můžeme domlouvat podle Vašich potřeb.
+      </>
+    ),
+  },
+  {
     title: 'Je možné se potkat online?',
     content: () => (
       <>
-        Aktuálně vlastně jen online. I za běžných podmínek jsem otevřen online setkání.
+        Preferuji osobní setkání, pokud by Vám ale více vyhovovalo setkávat se online, rád Vám vyhovím.
+      </>
+    ),
+  },
+  {
+    title: 'Jak často a jak dlouho se budeme setkávat?',
+    content: () => (
+      <>
+        Frekvence a délka setkávání je záležitost naší individuální domluvy. Preferuji, když je délka rámcově domluvená na prvním setkání. Je ale samozřejmě možné po dohodě spolupráci prodloužit, nebo ukončit dříve.
       </>
     ),
   }
