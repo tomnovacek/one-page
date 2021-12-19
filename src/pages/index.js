@@ -249,7 +249,7 @@ class Index extends React.Component {
               <h2>Naplánovat setkání</h2>
             </header>
               <p>
-                Vyberte si z kalendáře datum a čas, které vám budou nejvíce vyhovovat. V následujícím formuláři doplníte jen Vaše jméno a kontakní email, kam Vám příjde potvrzení.<br/>Můžete mi také poslat&nbsp;
+                Vyberte si z kalendáře datum a čas, které vám budou nejvíce vyhovovat. V následujícím formuláři doplníte jen Vaše jméno a kontaktní email, kam Vám přijde potvrzení.<br/>Můžete mi také poslat&nbsp;
                 <Scroll type="id" element="contact">
                   <a href="#">
                     <strong>mail nebo sms</strong>
@@ -262,7 +262,7 @@ class Index extends React.Component {
               <iframe
                 title="calendar"
                 className="content"
-                src="https://meetings.hubspot.com/mail249?embed=true"
+                src="https://meetings-eu1.hubspot.com/tomas-novacek"
                 width="100%"
                 height="670"
               ></iframe>
