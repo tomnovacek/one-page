@@ -15,6 +15,7 @@ export const Wrapper = styled.div`
     padding: 0px;
     outline: none !important;
     width: 100%;
+    font-size: 1rem;
     text-align: left;
     vertical-align: middle !important;
     cursor: pointer;
