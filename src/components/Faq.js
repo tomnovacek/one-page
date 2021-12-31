@@ -27,15 +27,15 @@ const FAQS = [
               Individuální konzultace
             </td>
             <td>
-              750 Kč
+              850 Kč
             </td>
           </tr>
           <tr>
             <td>
-              Párová nebo rodinná konzultace
+              Párová konzultace
             </td>
             <td>
-              900 Kč
+              1000 Kč
             </td>
           </tr>
         </table>
