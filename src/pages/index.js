@@ -265,7 +265,7 @@ class Index extends React.Component {
                 src="https://meetings-eu1.hubspot.com/tomas-novacek"
                 width="100%"
                 height="670"
-              ></iframe>
+              ></iframe>               
             </div>
           </section>
         </div>
