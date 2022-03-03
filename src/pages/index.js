@@ -265,7 +265,8 @@ class Index extends React.Component {
                 src="https://meetings-eu1.hubspot.com/tomas-novacek"
                 width="100%"
                 height="670"
-              ></iframe>               
+              ></iframe> 
+             {/*  <iframe frameborder='0' height='600px' scrolling='yes' src='https://reservatic.com/cs/public_services/tomas-novacek-online-individualni-konzultace/calendar?no_select_place=true&place_id=9173' width='100%'></iframe> */}              
             </div>
           </section>
         </div>
