@@ -18,7 +18,7 @@ const Footer = props => (
         <dt>Místo</dt>
         <dd><a href="https://terapienapekarske.cz" target="_blank">Terapie na Pekařské</a></dd>
         <dt>Adresa</dt>
-        <dd>Pekařská 18 &bull; Brno</dd>
+        <dd><a href="https://www.google.com/maps/place/Peka%C5%99sk%C3%A1+18,+602+00+Brno-st%C5%99ed/@49.1922827,16.6001328,17z/data=!3m1!4b1!4m5!3m4!1s0x471294518ea60565:0x80cc691cb4fc68d6!8m2!3d49.1922792!4d16.6023215" target="_blank">Pekařská 18</a> &bull; Brno</dd>
         <dt>Mobil</dt>
         <dd>(+420) 602 773 440 (preferuji sms)</dd>
         <dt>Email</dt>

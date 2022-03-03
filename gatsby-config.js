@@ -18,6 +18,13 @@ module.exports = {
         icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
       },
     },
+/*     {
+      resolve: 'gatsby-source-googlemaps-geocoding',
+      options: {
+        key: 'AIzaSyBMmvxIKMln3ERYD6S48poPIRoJfS4jQbk',
+        address: 'Pekařská 18, Brno, Czechia'
+      },
+    }, */
     'gatsby-plugin-sass',
     'gatsby-plugin-offline'
   ],
