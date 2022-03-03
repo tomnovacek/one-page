@@ -64,7 +64,7 @@ class Index extends React.Component {
                 <p>
                   Vystudoval jsem ekonomii a jednooborovou psychologii. Posledních sedm let se věnuji převážně psychologickému poradenství a tři roky také psychoterapii. Absolvoval jsem dvouletý výcvik v
                   koučinku a aktuálně jsem v pětiletém výcviku{' '}
-                  <a href="https://www.psychoterapie-integrace.cz/">
+                  <a href="https://www.psychoterapie-integrace.cz/" target="_blank">
                     integrace v psychoterapii
                   </a>. Spolupracuji s firmami i individuálními klienty na tom, aby jim bylo lépe.
                 </p>
