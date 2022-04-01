@@ -259,14 +259,22 @@ class Index extends React.Component {
               </p>
 
             <div>
-              <iframe
+              {/* <iframe
                 title="calendar"
                 className="content"
                 src="https://meetings-eu1.hubspot.com/tomas-novacek"
                 width="100%"
                 height="670"
-              ></iframe> 
+              ></iframe>  */}
              {/*  <iframe frameborder='0' height='600px' scrolling='yes' src='https://reservatic.com/cs/public_services/tomas-novacek-online-individualni-konzultace/calendar?no_select_place=true&place_id=9173' width='100%'></iframe> */}              
+             {/* inserted reservanto code */}
+            <div  
+            title="reservanto"
+            style={{height:"650px"}}
+            className="reservanto-iframe" data-id="18303" data-serviceid="59303" data-resourceid="25712" 
+            >
+            </div>
+            {/* end of inserted reservanto code */}
             </div>
           </section>
         </div>
@@ -277,7 +285,7 @@ class Index extends React.Component {
     smartlookClient.init('d165dc10f16a7da507933c2950cd1dd7f22a0b8f')
     const script = document.createElement('script')
     script.src =
-      'https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js'
+      'https://booking.reservanto.cz/Script/reservanto-iframe.js'
     script.async = true
     document.body.appendChild(script)
   }
