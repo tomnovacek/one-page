@@ -2,11 +2,12 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
-import Tom from '../assets/images/Tom.webp'
+import Tom from '../assets/images/TomBlob.png'
 import ThumbsUp from '../assets/images/thumbsUp.png'
 import Puzzle from '../assets/images/puzzle.png'
 import Tailor from '../assets/images/tailor.png'
 import Dialog from '../assets/images/dialog.png'
+import CAP from '../assets/images/CAP.png'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
@@ -68,6 +69,7 @@ class Index extends React.Component {
                     integrace v psychoterapii
                   </a>. Spolupracuji s firmami i individuálními klienty na tom, aby jim bylo lépe.
                 </p>
+                
                 {/* <ul className="actions">
                   <li>
                     <Link to="/generic" className="button">
@@ -94,9 +96,8 @@ class Index extends React.Component {
                   </ul>
                 </div>
               </div>
-              <span className="image">
-                <img src={Tom} alt="Thumbs up" />
-              </span>
+              <img src={Tom} alt="Thumbs up" width='500'/>
+              {/* <img src={CAP} alt="CAP logo" width='300'/> */}
             </div>
           </section>
 
@@ -108,7 +109,7 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style1 fa-user"></span>
+                {/* <span className="icon major style1 fa-user"></span> */}
                 <h3>Psychoterapie</h3>
                 <p>
                   Ať už stojíte před složitým životním rozhodnutím, řešíte
@@ -120,7 +121,7 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
-                <span className="icon major style3 fa-diamond"></span>
+                {/* <span className="icon major style3 fa-diamond"></span> */}
                 <h3>Koučování a poradenství</h3>
                 <p>
                   Pokud chcete pracovat na tom, aby se vám v osobním životě i
@@ -170,7 +171,7 @@ class Index extends React.Component {
                 <p className="source">Photo by <a href="https://unsplash.com/@sincerelymedia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sincerely Media</a> on <a href="https://unsplash.com/s/photos/thumbs-up?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
               </li>
 
-              <li>
+              {/* <li>
                 <h3> Celostní přístup</h3>
               <span className="image">
                 <img src={Puzzle} alt="Puzzle" />
@@ -178,7 +179,7 @@ class Index extends React.Component {
               <p>Snažím se s klienty uvědomit si a pochopit situaci v celé své komplexnosti. Důležité je neopomenout žádnou část skládačky.</p>
               <p className="source">Photo by <a href="https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sigmund</a> on <a href="https://unsplash.com/s/photos/puzzle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
   
-              </li>
+              </li> */}
               <li>
               <h3> Terapie na míru</h3>
               <span className="image">
