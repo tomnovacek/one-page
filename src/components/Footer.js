@@ -1,5 +1,6 @@
 import { Link } from 'gatsby'
 import React from 'react'
+import CAP from '../assets/images/CAP.png'
 
 const Footer = props => (
   <footer id="footer">
@@ -8,7 +9,7 @@ const Footer = props => (
       <p>
         Rád se s vámi setkám. Domluvte si se mnou schůzku přes rezervační systém, emailem nebo pošlete sms. Pokud Vám nebudu moci zvednout telefon, ozvu se hned, jak to bude možné.
       </p>
-      
+      <img src={CAP} alt="CAP logo" width='250' style={{marginTop:'-40px', display:'block', marginLeft:'auto', marginRight:'auto'}} className='center'/>
     </section>
     <section>
       <h2 id="contact">Kontakt</h2>
