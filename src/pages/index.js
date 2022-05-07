@@ -96,7 +96,9 @@ class Index extends React.Component {
                   </ul>
                 </div>
               </div>
-              <img src={Tom} alt="Thumbs up" width='500'/>
+              <div>
+                <img src={Tom} alt="Thumbs up" width='400' className='' style={{padding:'1rem'}}/>
+              </div>
               {/* <img src={CAP} alt="CAP logo" width='300'/> */}
             </div>
           </section>
