@@ -45,7 +45,7 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="Tomáš Nováček - psycholog" />
+        <Helmet title="Tomáš Nováček - psycholog, kouč, psychoterapeut" />
 
         <Header />
 
@@ -63,11 +63,14 @@ class Index extends React.Component {
                   <h2>Vítejte,</h2>
                 </header>
                 <p>
-                  Vystudoval jsem ekonomii a jednooborovou psychologii. Posledních sedm let se věnuji převážně psychologickému poradenství a tři roky také psychoterapii. Absolvoval jsem dvouletý výcvik v
+                  Jsem psycholog, kouč a psychoterapeut. Vystudoval jsem ekonomii a jednooborovou psychologii. Posledních sedm let se věnuji převážně psychologickému poradenství a tři roky také psychoterapii. Absolvoval jsem dvouletý výcvik v
                   koučinku a aktuálně jsem v pětiletém výcviku{' '}
                   <a href="https://www.psychoterapie-integrace.cz/" target="_blank">
                     integrace v psychoterapii
-                  </a>. Spolupracuji s firmami i individuálními klienty na tom, aby jim bylo lépe.
+                  </a>. Jsem kandidátním členem <a href='https://czap.cz/' target='_blank'> České asociace pro psychoterapii</a>, která sdužuje psychoterapeuty ctící etické zásady a splňující kvalifikační předpoklady psychoterapeutické práce. 
+                </p>
+                <p>
+                  Setkávám se s klienty ve své soukromé praxi. Spolupracuji také s firmami na individuálních rozvojových programech pro jejich zaměstnance. Témata, kterým se nejčastěji věnujeme jsou vztahové problémy, úzkosti, psychosomatické obtíže, nízké sebevědomí, osobní rozvoj a budování funkčních návyků.
                 </p>
                 
                 {/* <ul className="actions">
@@ -97,7 +100,7 @@ class Index extends React.Component {
                 </div>
               </div>
               <div>
-                <img src={Tom} alt="Thumbs up" width='400' className='' style={{padding:'1rem'}}/>
+                <img src={Tom} alt="Thumbs up" width='100%' className='' style={{padding:'0 1rem', maxWidth:'500px'}}/>
               </div>
               {/* <img src={CAP} alt="CAP logo" width='300'/> */}
             </div>
@@ -159,17 +162,23 @@ class Index extends React.Component {
           <section id="second" className="main special">
             <header className="major">
               <h2>Jak pracuji</h2>
+            </header>
+              <div className='content'>
+              <p>
+                Ve své práci vycházím z přesvědčení, že všichni lidé mají schopnosti zvládat obtíže, se kterými se setkají. Občas se ale může stát, že se člověk na nějakém problému zasekne. V takových situacích klienty doprovázím při zkoumání, jak komplikovaným situacím porozumět a úspěšně čelit. Stavím na respektu k odlišnostem mezi lidmi, proto s každým klientem postupuji trochu jinak. Vydávám se s klientem po jeho jedinečné cestě k sebepoznání. Společně objevujeme a upevňujeme jeho zdroje, na kterých může stavět, aby se mu žilo líp.
+              </p>
               <p>
                 Výcvik v kognitivně behaviorálním koučinku a především probíhající výcvik v integrativní psychoterapii definují základní rámec a metody mé práce. Podrobněji následující body probírám s klienty na prvním setkání.
               </p>
-            </header>
+              </div>
+            
             <ul className="principles">
               <li>
               <h3> Přijetí</h3>
               <span className="image">
                 <img src={ThumbsUp} alt="Thumbs Up foto" />
               </span>
-              <p>Respektuji subjektivní zkušenost klienta a jeho chápání situace. Beru klientovo pozorování a prožívání jako nejcennější zdroj poznání.</p>
+              <p>Snažím se pro klienty vytvářet prostředí, ve kterém jsou přijímáni a cítí se bezpečně.</p>
                 <p className="source">Photo by <a href="https://unsplash.com/@sincerelymedia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sincerely Media</a> on <a href="https://unsplash.com/s/photos/thumbs-up?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
               </li>
 
@@ -187,7 +196,7 @@ class Index extends React.Component {
               <span className="image">
                 <img src={Tailor} alt="Tailoring" />
               </span>
-              <p>Souhlasím s názorem, že jedinečnost každého člověka je důvodem k hledání pro každého  jedinečný přístup a způsob práce.</p>
+              <p>Jedinečnost každého člověka je pro důvodem k hledání jedinečného přístupu.</p>
               <p className="source">Photo by <a href="https://unsplash.com/@salvadorgodoyladrero?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Salvador Godoy</a> on <a href="https://unsplash.com/s/photos/tailor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
   
               </li>
@@ -197,11 +206,11 @@ class Index extends React.Component {
               <span className="image">
                 <img src={Dialog} alt="Dialog" />
               </span>
-              <p>Snažím se vnímat druhého, jakým je, stejně tak i sebe sama, vzájemně sdílet zkušenost autenticky a zodpovědně.</p>
+              <p>Bavíme se o s klienty tom jak nejlépe využít toho co už mají k tomu, aby se jim žilo lépe.</p>
               <p className="source">Photo by <a href="https://unsplash.com/@harlimarten?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Harli  Marten</a> on <a href="https://unsplash.com/s/photos/people-talking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
               </li>
             </ul>
-              <h2>
+        {/*       <h2>
                 Spolupráce obvykle probíhá v následujících krocích:
               </h2>
             <ul className="statistics">
@@ -222,7 +231,7 @@ class Index extends React.Component {
                 <span className="icon fa-check"></span>
                 <strong>4</strong> <Ending />
               </li>
-            </ul>
+            </ul> */}
           </section>
 
           <section id="cta" className="main special">
