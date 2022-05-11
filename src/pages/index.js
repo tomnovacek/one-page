@@ -294,12 +294,12 @@ class Index extends React.Component {
     )
   }
   componentDidMount() {
-    smartlookClient.init('d165dc10f16a7da507933c2950cd1dd7f22a0b8f')
     const script = document.createElement('script')
     script.src =
-      'https://booking.reservanto.cz/Script/reservanto-iframe.js'
+    'https://booking.reservanto.cz/Script/reservanto-iframe.js'
     script.async = true
     document.body.appendChild(script)
+    smartlookClient.init('d165dc10f16a7da507933c2950cd1dd7f22a0b8f')
   }
 }
 
