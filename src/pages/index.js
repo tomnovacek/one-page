@@ -67,7 +67,7 @@ class Index extends React.Component {
                   koučinku a aktuálně jsem v pětiletém výcviku{' '}
                   <a href="https://www.psychoterapie-integrace.cz/" target="_blank">
                     integrace v psychoterapii
-                  </a>. Jsem kandidátním členem <a href='https://czap.cz/' target='_blank'> České asociace pro psychoterapii</a>, která sdužuje psychoterapeuty ctící etické zásady a splňující kvalifikační předpoklady psychoterapeutické práce. 
+                  </a>. Jsem kandidátním členem <a href='https://czap.cz/' target='_blank'> České asociace pro psychoterapii</a>, která sdružuje psychoterapeuty ctící etické zásady a splňující kvalifikační předpoklady psychoterapeutické práce. 
                 </p>
                 <p>
                   Setkávám se s klienty ve své soukromé praxi. Spolupracuji také s firmami na individuálních rozvojových programech pro jejich zaměstnance. Témata, kterým se nejčastěji věnujeme jsou vztahové problémy, úzkosti, psychosomatické obtíže, nízké sebevědomí, osobní rozvoj a budování funkčních návyků.
@@ -130,7 +130,7 @@ class Index extends React.Component {
                 <h3>Koučování a poradenství</h3>
                 <p>
                   Pokud chcete pracovat na tom, aby se vám v osobním životě i
-                  práci dařilo lépe a chcete s tím systematicky pomoct,&nbsp;
+                  práci dařilo lépe a chcete s tím systematicky pracovat,&nbsp;
                   <Scroll type="id" element ="schedule">
                     <a href="#">naplánujte si se mnou schůzku.</a> 
                   </Scroll>
@@ -237,7 +237,7 @@ class Index extends React.Component {
           <section id="cta" className="main special">
             <header className="major">
               <h2>Nejčastější dotazy</h2>
-              <p>Níže je seznam nejšastějších otázek a odpovědí.<br/>Jestli Vám zde chybí důležitá informace, <a href="mailto:mail@tomasnovacek.com">kontaktujte mě prosím</a>.</p>
+              <p>Níže je seznam nejčastějších otázek a odpovědí.<br/>Jestli Vám zde chybí důležitá informace, <a href="mailto:mail@tomasnovacek.com">kontaktujte mě prosím</a>.</p>
             </header>
               <Faq />
             {/* <footer className="major">
