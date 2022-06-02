@@ -282,7 +282,7 @@ class Index extends React.Component {
              {/* inserted reservanto code */}
             <div  
             title="reservanto"
-            style={{height:"650px"}}
+            style={{maxWidth: "750px", height:"650px"}}
             className="reservanto-iframe" data-id="18303" data-serviceid="59303" data-resourceid="25712" 
             >
             </div>
@@ -295,8 +295,7 @@ class Index extends React.Component {
   }
   componentDidMount() {
     const script = document.createElement('script')
-    script.src =
-    'https://booking.reservanto.cz/Script/reservanto-iframe.js'
+    script.src = 'https://booking.reservanto.cz/Script/reservanto-iframe.js'
     script.async = true
     document.body.appendChild(script)
     smartlookClient.init('d165dc10f16a7da507933c2950cd1dd7f22a0b8f')
