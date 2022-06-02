@@ -17,7 +17,7 @@ import FirstMeeting from '../components/FirstMeeting'
 import Cooperation from '../components/Cooperation'
 import Ending from '../components/Ending'
 import Scroll from '../components/Scroll'
-import smartlookClient from 'smartlook-client'
+/* import smartlookClient from 'smartlook-client' */
 
 class Index extends React.Component {
   constructor(props) {
@@ -282,7 +282,7 @@ class Index extends React.Component {
              {/* inserted reservanto code */}
             <div  
             title="reservanto"
-            style={{maxWidth: "750px", height:"650px"}}
+            style={{maxWidth: "80%", height:"650px", margin:"auto"}}
             className="reservanto-iframe" data-id="18303" data-serviceid="59303" data-resourceid="25712" 
             >
             </div>
@@ -298,7 +298,7 @@ class Index extends React.Component {
     script.src = 'https://booking.reservanto.cz/Script/reservanto-iframe.js'
     script.async = true
     document.body.appendChild(script)
-    smartlookClient.init('d165dc10f16a7da507933c2950cd1dd7f22a0b8f')
+    /* smartlookClient.init('d165dc10f16a7da507933c2950cd1dd7f22a0b8f') */
   }
 }
 
