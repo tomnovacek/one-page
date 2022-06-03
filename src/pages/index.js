@@ -82,16 +82,16 @@ class Index extends React.Component {
                 </ul> */}
                 <div>
                   <ul className="actions">
-                    <li>
+                    {/* <li>
                     <Scroll type="id" element="schedule">
                       <button className="color-button cta">
                         <a href="#">Rezervujte si termín</a>
                       </button>
                     </Scroll>
-                    </li>
+                    </li> */}
                     <li>
                     <Scroll type="id" element="contact">
-                      <button className="button">
+                      <button className="color-button cta">
                         <a href="#">Kontaktujte mě</a>
                       </button>
                     </Scroll>
@@ -261,7 +261,7 @@ class Index extends React.Component {
               <h2>Naplánovat setkání</h2>
             </header>
               <p>
-                Vyberte si z kalendáře datum a čas, které vám budou nejvíce vyhovovat. V následujícím formuláři doplníte jen Vaše jméno a kontaktní email, kam Vám přijde potvrzení.<br/>Můžete mi také poslat&nbsp;
+                {/* Vyberte si z kalendáře datum a čas, které vám budou nejvíce vyhovovat. V následujícím formuláři doplníte jen Vaše jméno a kontaktní email, kam Vám přijde potvrzení.<br/> */}Pošlete mi &nbsp;
                 <Scroll type="id" element="contact">
                   <a href="#">
                     <strong>mail nebo sms</strong>
@@ -270,7 +270,7 @@ class Index extends React.Component {
                 . Odepíši Vám s návrhy termínů možných setkání.
               </p>
 
-            <div>
+            {/* <div>
               {/* <iframe
                 title="calendar"
                 className="content"
@@ -280,25 +280,25 @@ class Index extends React.Component {
               ></iframe>  */}
              {/*  <iframe frameborder='0' height='600px' scrolling='yes' src='https://reservatic.com/cs/public_services/tomas-novacek-online-individualni-konzultace/calendar?no_select_place=true&place_id=9173' width='100%'></iframe> */}              
              {/* inserted reservanto code */}
-            <div  
+            {/* <div  
             title="reservanto"
             style={{maxWidth: "80%", height:"650px", margin:"auto"}}
             className="reservanto-iframe" data-id="18303" data-serviceid="59303" data-resourceid="25712" 
             >
-            </div>
+            </div> */}
             {/* end of inserted reservanto code */}
-            </div>
+            {/* </div> */}
           </section>
         </div>
       </Layout>
     )
   }
   componentDidMount() {
-    const script = document.createElement('script')
+/*     const script = document.createElement('script')
     script.src = 'https://booking.reservanto.cz/Script/reservanto-iframe.js'
     script.async = true
-    document.body.appendChild(script)
-    /* smartlookClient.init('d165dc10f16a7da507933c2950cd1dd7f22a0b8f') */
+    document.body.appendChild(script) */
+    smartlookClient.init('d165dc10f16a7da507933c2950cd1dd7f22a0b8f')
   }
 }
 
