@@ -17,7 +17,7 @@ import FirstMeeting from '../components/FirstMeeting'
 import Cooperation from '../components/Cooperation'
 import Ending from '../components/Ending'
 import Scroll from '../components/Scroll'
-/* import smartlookClient from 'smartlook-client' */
+import smartlookClient from 'smartlook-client'
 
 class Index extends React.Component {
   constructor(props) {
