@@ -25,11 +25,11 @@ const Nav = (props) => (
                     <a href="#">Dotazy</a>
                 </Scroll>
             </li>
-            <li>
+            {/* <li>
                 <Scroll type="id" element="schedule">
                     <a href="#">Kalendář</a>
                 </Scroll>
-            </li>
+            </li> */}
             <li>
                 <Scroll type="id" element="contact">
                     <a href="#">Kontakt</a>
