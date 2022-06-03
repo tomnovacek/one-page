@@ -267,7 +267,7 @@ class Index extends React.Component {
                     <strong>mail nebo sms</strong>
                   </a>
                 </Scroll>
-                . Odepíši Vám s návrhy termínů možných setkání.
+                . Odepíši Vám s návrhy možných termínů.
               </p>
 
             {/* <div>
