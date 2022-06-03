@@ -9,7 +9,7 @@ const FAQS = [
     title: 'Jak si domluvit setkání?',
     content: () => (
       <>
-        Ideální je rezervovat si čas přes rezervační systém, napsat email, nebo sms. V případě emailu, nebo sms, se vám ozvu zpět s navrženými termíny. V případě online rezervace si vyberete termín, který vám vyhovuje přímo z kalendáře.
+        Napište prosím email nebo sms. Ozvu zpět s navrženými termíny.
       </>
     ),
   },
@@ -55,7 +55,7 @@ const FAQS = [
     title: 'Je možné se potkat online?',
     content: () => (
       <>
-        Preferuji osobní setkání, pokud by Vám ale více vyhovovalo setkávat se online, rád Vám vyhovím.
+        Preferuji osobní setkání, pokud by Vám ale více vyhovovalo setkávat se online, je to po domluvě možné.
       </>
     ),
   },
@@ -63,7 +63,7 @@ const FAQS = [
     title: 'Jak často a jak dlouho se budeme setkávat?',
     content: () => (
       <>
-        Frekvence a délka setkávání je záležitost naší individuální domluvy. Preferuji, když je délka rámcově domluvená na prvním setkání. Je ale samozřejmě možné po dohodě spolupráci prodloužit, nebo ukončit dříve.
+        Frekvence a délka setkávání je záležitost naší individuální domluvy. O předpokládané délce se můžeme pobavit na prvním setkání. Je ale samozřejmě možné po dohodě spolupráci prodloužit, nebo ukončit dříve.
       </>
     ),
   }
