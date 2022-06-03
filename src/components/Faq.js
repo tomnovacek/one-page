@@ -20,22 +20,22 @@ const FAQS = [
         <table style={{textAlign:"left"}}>
           <tr>
             <th>Služba</th>
-            <th>Cena / 50 minut</th>
+            <th>Cena</th>
           </tr>
           <tr>
             <td>
-              Individuální konzultace
+              Individuální konzultace - 50 minut
             </td>
             <td>
-              850 Kč
+              850 Kč (první hodina 500 Kč)
             </td>
           </tr>
           <tr>
             <td>
-              Párová konzultace
+              Párová konzultace - 90 minut
             </td>
             <td>
-              1000 Kč
+              1500 Kč (první hodina 750 Kč)
             </td>
           </tr>
         </table>
