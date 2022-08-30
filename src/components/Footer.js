@@ -16,10 +16,10 @@ const Footer = props => (
       <dl className="alt">
         <dt>Jméno</dt>
         <dd>Mgr. Ing. Tomáš Nováček</dd>
-        <dt>Místo</dt>
-        <dd><a href="https://terapienapekarske.cz" target="_blank">Terapie na Pekařské</a></dd>
+        {/* <dt>Místo</dt>
+        <dd><a href="https://terapienapekarske.cz" target="_blank">Terapie na Pekařské</a></dd> */}
         <dt>Adresa</dt>
-        <dd><a href="https://www.google.com/maps/place/Peka%C5%99sk%C3%A1+18,+602+00+Brno-st%C5%99ed/@49.1922827,16.6001328,17z/data=!3m1!4b1!4m5!3m4!1s0x471294518ea60565:0x80cc691cb4fc68d6!8m2!3d49.1922792!4d16.6023215" target="_blank">Pekařská 18</a> &bull; Brno</dd>
+        <dd><a href="https://www.google.com/maps/place/Mgr.+Tom%C3%A1%C5%A1+Nov%C3%A1%C4%8Dek+-+psycholog+a+terapeut/@49.1929206,16.6065178,17z/data=!4m9!1m2!2m1!1stomas+novacek,+orli!3m5!1s0x471295d6e35ec40f:0x40a3ee641541c87e!8m2!3d49.1938495!4d16.6121573!15sChN0b21hcyBub3ZhY2VrLCBvcmxpkgEPcHN5Y2hvdGhlcmFwaXN04AEA" target="_blank">Orlí 20</a> &bull; Brno</dd>
         <dt>Mobil</dt>
         <dd>(+420) 602 773 440 (preferuji sms)</dd>
         <dt>Email</dt>
