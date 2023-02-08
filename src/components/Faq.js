@@ -27,15 +27,7 @@ const FAQS = [
               Individuální konzultace - 50 minut
             </td>
             <td>
-              850 Kč (první hodina 500 Kč)
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Párová konzultace - 90 minut
-            </td>
-            <td>
-              1500 Kč (první hodina 750 Kč)
+              1000 Kč 
             </td>
           </tr>
         </table>
