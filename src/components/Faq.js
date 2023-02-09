@@ -17,13 +17,13 @@ const FAQS = [
     title: 'Jaká je cena sezení?',
     content: () => (
       <>
-      Za individuální konzultaci v délce 50 minut zaplatíte 1000 Kč. Možné je platit v hotovosti nebo převodem na účet.<br/>
-      Tréninky a spolupráci ve firmách domlouvám s klienty individuálně. Pokud se dohodneme na setkání u klienta, jsou k ceně připočítány náklady na dopravu.
+      Za individuální konzultaci v délce 50 minut zaplatíte 1000 Kč. Službu je možno hradit v hotovosti nebo převodem na účet.<br/><br/>
+      Tréninky a spolupráci ve firmách domlouvám s klienty individuálně.
       </>
     ),
   },
   {
-    title: 'Může být terapie hrazena zdravotní pojišťovnou?',
+    title: 'Hradí to zdravotní pojišťovna?',
     content: () => (
       <>
         Nespolupracuji se zdravotními pojišťovnami. Za moje služby platíte vy. I když je to pro Vás spojeno s vyššími náklady, má to i své výhody. Například není nutné předávat informace o průběhu terapie zdravotní pojišťovně. Také délku a frekvenci setkávání si můžeme domlouvat podle Vašich potřeb.
@@ -39,7 +39,7 @@ const FAQS = [
     ),
   },
   {
-    title: 'Jak často a jak dlouho se budeme setkávat?',
+    title: 'Jak dlouho trvá terapie?',
     content: () => (
       <>
         Frekvence a délka setkávání je záležitost naší individuální domluvy. O předpokládané délce se můžeme pobavit na prvním setkání. Je ale samozřejmě možné po dohodě spolupráci prodloužit, nebo ukončit dříve.
