@@ -15,10 +15,11 @@ export const Wrapper = styled.div`
     padding: 0px;
     outline: none !important;
     width: 100%;
-    font-size: 1rem;
+    font-size: 1em;
     text-align: left;
     vertical-align: middle !important;
     cursor: pointer;
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
 
     padding-right: 72px;
     padding-left: 16px;
@@ -49,6 +50,7 @@ export const Wrapper = styled.div`
     padding: 16px 72px 32px 16px;
     line-height: 26px;
     text-align: left;
+    font-size: 1em;
   }
   `;
 

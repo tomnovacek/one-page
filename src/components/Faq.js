@@ -14,24 +14,11 @@ const FAQS = [
     ),
   },
   {
-    title: 'Jaký je ceník služeb?',
+    title: 'Jaká je cena sezení?',
     content: () => (
       <>
-        <table style={{textAlign:"left"}}>
-          <tr>
-            <th>Služba</th>
-            <th>Cena</th>
-          </tr>
-          <tr>
-            <td>
-              Individuální konzultace - 50 minut
-            </td>
-            <td>
-              1000 Kč 
-            </td>
-          </tr>
-        </table>
-        <p>Tréninky a spolupráci ve firmách domlouvám s klienty individuálně. Pokud se dohodneme na setkání vna jiném místě, je k ceně připočítána cena za dopravu.</p>
+      Za individuální konzultaci v délce 50 minut zaplatíte 1000 Kč. Možné je platit v hotovosti nebo převodem na účet.<br/>
+      Tréninky a spolupráci ve firmách domlouvám s klienty individuálně. Pokud se dohodneme na setkání u klienta, jsou k ceně připočítány náklady na dopravu.
       </>
     ),
   },
