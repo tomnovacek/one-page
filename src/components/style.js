@@ -15,7 +15,7 @@ export const Wrapper = styled.div`
     padding: 0px;
     outline: none !important;
     width: 100%;
-    font-size: 1em;
+    font-size: 1.1em;
     text-align: left;
     vertical-align: middle !important;
     cursor: pointer;
@@ -47,7 +47,7 @@ export const Wrapper = styled.div`
   }
 
   .faq-content {
-    padding: 16px 72px 32px 16px;
+    padding: 16px 72px 32px 32px;
     line-height: 26px;
     text-align: left;
     font-size: 1em;
