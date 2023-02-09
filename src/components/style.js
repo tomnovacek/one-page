@@ -48,7 +48,7 @@ export const Wrapper = styled.div`
 
   .faq-content {
     padding: 16px 72px 32px 32px;
-    line-height: 26px;
+    line-height: 32px;
     text-align: left;
     font-size: 1em;
   }
