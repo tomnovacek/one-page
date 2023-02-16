@@ -17,7 +17,7 @@ const FAQS = [
     title: 'Jaká je cena sezení?',
     content: () => (
       <>
-      Za individuální konzultaci v délce 50 minut zaplatíte 1000 Kč. Službu je možno hradit v hotovosti nebo převodem na účet.<br/><br/>
+      Za individuální konzultaci v délce 50 minut zaplatíte 950 Kč. Službu je možno hradit v hotovosti nebo převodem na účet.<br/><br/>
       Tréninky a spolupráci ve firmách domlouvám s klienty individuálně.
       </>
     ),
