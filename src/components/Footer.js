@@ -24,7 +24,7 @@ const Footer = props => (
         <dd>(+420) 602 773 440 (preferuji sms)</dd>
         <dt>Email</dt>
         <dd>
-          <a href="mailto:mail@tomasnovacek.com">mail@tomasnovacek.com</a>
+          <a href="mailto:terapie@tomasnovacek.com">terapie@tomasnovacek.com</a>
         </dd>
       </dl>
       <ul className="icons">
