@@ -63,7 +63,7 @@ class Index extends React.Component {
                   <h2>Vítejte,</h2>
                 </header>
                 <p>
-                  Jsem psycholog, kouč a psychoterapeut. Vystudoval jsem ekonomii a jednooborovou psychologii. Posledních sedm let se věnuji převážně psychologickému poradenství a tři roky také psychoterapii. Absolvoval jsem dvouletý výcvik v
+                  Jsem psycholog, kouč a terapeut. Vystudoval jsem ekonomii a jednooborovou psychologii. Posledních sedm let se věnuji převážně psychologickému poradenství a tři roky také terapii. Absolvoval jsem dvouletý výcvik v
                   koučinku a aktuálně jsem v pětiletém výcviku{' '}
                   <a href="https://www.psychoterapie-integrace.cz/" target="_blank">
                     integrace v psychoterapii
@@ -269,6 +269,19 @@ class Index extends React.Component {
                 </Scroll>
                 . Odepíši Vám s návrhy možných termínů.
               </p>
+              <p>Případně rezervujte termín přímo v kalendáři:</p>
+
+              {/* Google Calendar Appointment Scheduling begin */}
+              <iframe 
+              title = "calendar"
+              className = ""
+              src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3BE-THoUhmcnEYwwNty1ZAGTp9x3LrujmfdresjhmSEHg42rFBgu3SWQpeUTAX3LSmT5Fpe9UW?gv=true" 
+              style={{border: "0"}} 
+              width="100%" 
+              height="590" 
+              frameborder="0">
+              </iframe>
+              {/* end Google Calendar Appointment Scheduling */}
 
             {/* <div>
               {/* <iframe

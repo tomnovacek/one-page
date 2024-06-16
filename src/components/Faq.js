@@ -1,7 +1,6 @@
 import React from 'react';
-
 import { Section, Container } from './global';
-
+import Scroll from '../components/Scroll'
 import FaqItem from './FaqItem';
 
 const FAQS = [
@@ -9,7 +8,7 @@ const FAQS = [
     title: 'Jak si domluvit setkání?',
     content: () => (
       <>
-        Napište prosím email nebo sms. Ozvu zpět s navrženými termíny.
+        Napište prosím email nebo sms. Ozvu zpět s navrženými termíny. Případně si naplánujte schůzky přímo v <Scroll type="id" element="schedule"><a href="#">kalendáři</a></Scroll>. 
       </>
     ),
   },
