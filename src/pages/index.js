@@ -45,7 +45,7 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="Tomáš Nováček - psycholog, kouč, psychoterapeut" />
+        <Helmet title="Tomáš Nováček - psycholog, kouč, terapeut" />
 
         <Header />
 
