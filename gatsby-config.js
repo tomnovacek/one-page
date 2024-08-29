@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Mgr. Ing. Tomáš Nováček - psycholog, terapeut - Brno",
     author: "Tom Novacek",
-    description: "Nabízím odborné služby psychologa a terapeuta v Brně."
+    description: "Psychologické poradenství a terapie."
   },
   plugins: [
     'gatsby-plugin-react-helmet',
