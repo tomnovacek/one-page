@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-stellar",
-  "description": "Gatsby Starter - Stellar by HTML5 UP",
+  "name": "Tomas Novacek - psychologist - personal web page",
+  "description": "Psychologist and Therapeutist Brno",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Tomas Novacek, template from Hunter Chang",
   "dependencies": {
     "gatsby": "^5.12.4",
     "gatsby-plugin-google-gtag": "^5.12.0",
