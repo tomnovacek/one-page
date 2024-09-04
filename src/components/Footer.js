@@ -27,7 +27,7 @@ const Footer = props => (
           <a href="mailto:terapie@tomasnovacek.com">terapie@tomasnovacek.com</a>
         </dd>
       </dl>
-      <ul className="icons">
+      {/* <ul className="icons">
         <li>
           <a
             href="https://twitter.com/tomnovacek"
@@ -49,7 +49,7 @@ const Footer = props => (
             <span className="label">GitHub</span>
           </a>
         </li>
-      </ul>
+      </ul> */}
     </section>
     <p className="copyright">
       &copy; Všechna práva vyhrazena.
