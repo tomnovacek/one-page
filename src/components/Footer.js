@@ -19,7 +19,7 @@ const Footer = props => (
         {/* <dt>Místo</dt>
         <dd><a href="https://terapienapekarske.cz" target="_blank">Terapie na Pekařské</a></dd> */}
         <dt>Adresa</dt>
-        <dd><a href="https://maps.app.goo.gl/NWyPm7z7msaV6XAQ9" target="_blank">Sukova 4</a> &bull; Brno</dd>
+        <dd><a href="https://maps.app.goo.gl/EFwBjA4NRo9f6M6p8" target="_blank">Sukova 4</a> &bull; Brno</dd>
         <dt>Mobil</dt>
         <dd>(+420) 602 773 440 (preferuji sms)</dd>
         <dt>Email</dt>
