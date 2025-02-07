@@ -19,7 +19,7 @@ const Footer = props => (
         {/* <dt>Místo</dt>
         <dd><a href="https://terapienapekarske.cz" target="_blank">Terapie na Pekařské</a></dd> */}
         <dt>Adresa</dt>
-        <dd><a href="https://www.google.com/maps/place/Mgr.+Tom%C3%A1%C5%A1+Nov%C3%A1%C4%8Dek+-+psycholog+a+terapeut/@49.1929206,16.6065178,17z/data=!4m9!1m2!2m1!1stomas+novacek,+orli!3m5!1s0x471295d6e35ec40f:0x40a3ee641541c87e!8m2!3d49.1938495!4d16.6121573!15sChN0b21hcyBub3ZhY2VrLCBvcmxpkgEPcHN5Y2hvdGhlcmFwaXN04AEA" target="_blank">Orlí 20</a> &bull; Brno</dd>
+        <dd><a href="https://maps.app.goo.gl/NWyPm7z7msaV6XAQ9" target="_blank">Sukova 4</a> &bull; Brno</dd>
         <dt>Mobil</dt>
         <dd>(+420) 602 773 440 (preferuji sms)</dd>
         <dt>Email</dt>
